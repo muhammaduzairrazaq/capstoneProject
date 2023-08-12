@@ -1,0 +1,74 @@
+.main-container {
+  background: url(/assests/bkm.png);
+  background-repeat: no-repeat;
+  height: 30pc;
+  background-position-x: right;
+  background-position-y: bottom;
+  background-color: #272a31;
+}
+
+.main-text {
+  text-align: center;
+  color: #ec5242;
+}
+
+.course-text {
+  text-align: center;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.social-icons a {
+  margin: 0 10px;
+  font-size: 24px;
+  color: #333;
+}
+
+/** About Page **/
+
+.card i {
+  font-size: 4pc;
+}
+
+.social-icons a i {
+  font-size: 20px;
+}
+
+.cmp1 {
+  background: url(assests/cmp1.PNG);
+}
+
+.cmp2 {
+  background: url(assests/cmp2.PNG);
+}
+
+.cmp3 {
+  background: url(assests/cmp3.PNG);
+}
+
+.cmp4 {
+  background: url(assests/cmp4.PNG);
+}
+
+.cmp5 {
+  background: url(assests/cmp5.PNG);
+}
+
+.cmp6 {
+  background: url(assests/cmp6.PNG);
+}
+
+.company {
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+@media screen and (max-width: 768px) {
+  .navbar-brand {
+    display: none;
+  }
+}
