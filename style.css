@@ -28,6 +28,10 @@
   color: #333;
 }
 
+.card {
+  width: 18rem;
+}
+
 /** About Page **/
 
 .card i {
@@ -63,6 +67,8 @@
 }
 
 .company {
+  width: 18rem;
+  height: 10rem;
   background-repeat: no-repeat;
   background-size: contain;
 }
