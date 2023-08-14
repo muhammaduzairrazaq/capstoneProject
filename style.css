@@ -7,9 +7,62 @@
   background-color: #272a31;
 }
 
+.row .card {
+  width: 21rem;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+
 .main-text {
   text-align: center;
+  font-weight: bold;
+  font-size: 2rem;
   color: #ec5242;
+}
+
+.col-12 button {
+  background-color: #ec5242;
+  font-weight: bold;
+  color: white;
+}
+
+.col-12 button:hover {
+  background-color: #d84433;
+  font-weight: bold;
+  color: white;
+}
+
+.card-body a {
+  background-color: #ec5242;
+  font-weight: bold;
+  color: white;
+}
+
+.social-icons a {
+  margin: 0 10px;
+  font-size: 24px;
+  color: #ec5242;
+}
+
+.card-body a:hover {
+  background-color: #d84433;
+  font-weight: bold;
+  color: white;
+}
+
+.line {
+  height: 0.3rem;
+  background-color: #272a31;
+  border-radius: 10px;
+  width: 7rem;
+}
+
+.noborder {
+  border: none;
+  background-color: white;
+  font-size: large;
 }
 
 .course-text {
@@ -20,16 +73,16 @@
   display: flex;
   justify-content: center;
   margin-top: 20px;
+  gap: 1rem;
 }
 
-.social-icons a {
-  margin: 0 10px;
-  font-size: 24px;
-  color: #333;
+.bg-lights {
+  margin-top: 4rem;
+  background-color: #272a31;
 }
 
-.card {
-  width: 18rem;
+img {
+  border-radius: 3px;
 }
 
 /** About Page **/
@@ -76,5 +129,41 @@
 @media screen and (max-width: 768px) {
   .navbar-brand {
     display: none;
+  }
+
+  .contact-form {
+    max-width: 22rem !important;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .contact-form {
+    max-width: 44rem !important;
+  }
+
+  .main-container {
+    background: url(/assests/bkd.png);
+    height: 45pc;
+    background-repeat: no-repeat;
+    background-size: 400px;
+    background-position-x: right;
+    background-position-y: bottom;
+    background-color: #1c1a19;
+  }
+
+  .container-sm {
+    max-width: 30rem !important;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .navbar-toggler-icon {
+    display: none !important;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .contact-form {
+    max-width: 67rem !important;
   }
 }
