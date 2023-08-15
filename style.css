@@ -1,10 +1,23 @@
+
 .main-container {
-  background: url(/assests/bkm.png);
+  background: url(/assests/background3.png);
   background-repeat: no-repeat;
-  height: 30pc;
-  background-position-x: right;
-  background-position-y: bottom;
+  height: 40pc;
+  background-position: center;
+  background-size: cover;
+}
+
+.nav-bar {
   background-color: #272a31;
+}
+
+.button-black {
+  background-color: #272a31 !important;
+}
+
+.hamburgur {
+  font-size: 2rem;
+  color: #ec5242;
 }
 
 .row .card {
@@ -19,7 +32,7 @@ body {
   text-align: center;
   font-weight: bold;
   font-size: 2rem;
-  color: #ec5242;
+  color: #272a31;
 }
 
 .col-12 button {
@@ -42,7 +55,7 @@ body {
 
 .social-icons a {
   margin: 0 10px;
-  font-size: 24px;
+  font-size: 3rem;
   color: #ec5242;
 }
 
@@ -92,7 +105,7 @@ img {
 }
 
 .social-icons a i {
-  font-size: 20px;
+  font-size: 2rem;
 }
 
 .cmp1 {
@@ -141,23 +154,13 @@ img {
     max-width: 44rem !important;
   }
 
-  .main-container {
-    background: url(/assests/bkd.png);
-    height: 45pc;
-    background-repeat: no-repeat;
-    background-size: 400px;
-    background-position-x: right;
-    background-position-y: bottom;
-    background-color: #1c1a19;
-  }
-
   .container-sm {
     max-width: 30rem !important;
   }
 }
 
 @media screen and (min-width: 992px) {
-  .navbar-toggler-icon {
+  .hamburgur {
     display: none !important;
   }
 }
