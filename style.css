@@ -154,6 +154,12 @@ img {
     max-width: 44rem !important;
   }
 
+  .main-container {
+    height: 52pc;
+  }
+
+
+
   .container-sm {
     max-width: 30rem !important;
   }
