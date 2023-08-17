@@ -20,8 +20,18 @@
   color: #ec5242;
 }
 
+p {
+  font-size: 100%;
+}
+
 .row .card {
   width: 21rem;
+}
+
+.com .card-body {
+  height: 10rem;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 body {
@@ -29,10 +39,12 @@ body {
 }
 
 .main-text {
+  font-family: 'Lato', sans-serif;
+  font-family: 'Roboto', sans-serif;
   text-align: center;
-  font-weight: bold;
   font-size: 2rem;
   color: #272a31;
+  color: white;
 }
 
 .col-12 button {
@@ -79,7 +91,8 @@ body {
 }
 
 .course-text {
-  text-align: center;
+  font-size: 2rem;
+  color: #272a31;
 }
 
 .social-icons {
@@ -98,10 +111,24 @@ img {
   border-radius: 3px;
 }
 
+.navbar-nav li:hover {
+  background-color: #ee63548c;
+  border-radius: 5px;
+}
+
 /** About Page **/
 
+.card-header {
+  background-color: white !important;
+}
+
+.container-width {
+  width: 23rem !important;
+}
+
 .card i {
-  font-size: 4pc;
+  font-size: 5pc;
+  color: #ec5242;
 }
 
 .social-icons a i {
@@ -132,12 +159,13 @@ img {
   background: url(assests/cmp6.PNG);
 }
 
-.company {
+/*
+.row .company {
   width: 18rem;
   height: 10rem;
   background-repeat: no-repeat;
   background-size: contain;
-}
+} */
 
 @media screen and (max-width: 768px) {
   .navbar-brand {
@@ -152,6 +180,10 @@ img {
 @media screen and (min-width: 768px) {
   .contact-form {
     max-width: 44rem !important;
+  }
+
+  .container-width {
+    width: 50rem !important;
   }
 
   .main-container {
@@ -172,5 +204,9 @@ img {
 @media screen and (min-width: 1200px) {
   .contact-form {
     max-width: 67rem !important;
+  }
+
+  .container-width {
+    width: 67rem !important;
   }
 }
