@@ -1,4 +1,3 @@
-
 .main-container {
   background: url(/assests/background3.png);
   background-repeat: no-repeat;
@@ -26,12 +25,6 @@ p {
 
 .row .card {
   width: 21rem;
-}
-
-.com .card-body {
-  height: 10rem;
-  background-repeat: no-repeat;
-  background-position: center;
 }
 
 body {
@@ -116,7 +109,9 @@ img {
   border-radius: 5px;
 }
 
-/** About Page **/
+.submit-button {
+  width: 9rem;
+}
 
 .card-header {
   background-color: white !important;
@@ -135,38 +130,6 @@ img {
   font-size: 2rem;
 }
 
-.cmp1 {
-  background: url(assests/cmp1.PNG);
-}
-
-.cmp2 {
-  background: url(assests/cmp2.PNG);
-}
-
-.cmp3 {
-  background: url(assests/cmp3.PNG);
-}
-
-.cmp4 {
-  background: url(assests/cmp4.PNG);
-}
-
-.cmp5 {
-  background: url(assests/cmp5.PNG);
-}
-
-.cmp6 {
-  background: url(assests/cmp6.PNG);
-}
-
-/*
-.row .company {
-  width: 18rem;
-  height: 10rem;
-  background-repeat: no-repeat;
-  background-size: contain;
-} */
-
 @media screen and (max-width: 768px) {
   .navbar-brand {
     display: none;
@@ -183,7 +146,7 @@ img {
   }
 
   .container-width {
-    width: 50rem !important;
+    width: 45rem !important;
   }
 
   .main-container {
@@ -207,6 +170,6 @@ img {
   }
 
   .container-width {
-    width: 67rem !important;
+    width: 65rem !important;
   }
 }
