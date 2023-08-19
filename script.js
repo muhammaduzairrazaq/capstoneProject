@@ -110,14 +110,22 @@ const cardCourses = [
 
 ];
 
-// const companiesLogo = [
-//   { img: 'assests/cmp1.PNG' },
-//   { img: 'assests/cmp2.PNG' },
-//   { img: 'assests/cmp3.PNG' },
-//   { img: 'assests/cmp4.PNG' },
-//   { img: 'assests/cmp5.PNG' },
-//   { img: 'assests/cmp6.PNG' },
-// ];
+const companiesLogo = [
+  { img: 'assests/cmp1.PNG' },
+  { img: 'assests/cmp2.PNG' },
+  { img: 'assests/cmp3.PNG' },
+  { img: 'assests/cmp4.PNG' },
+  { img: 'assests/cmp5.PNG' },
+  { img: 'assests/cmp6.PNG' },
+];
+
+const missionsBox = [
+  {description : "Gain world-class education to expand your technical knowledge", icon : "fa-solid fa-user-graduate fa-lg mt-4"},
+  {description : "Get hands-on training to acquire practical skills", icon : "fa-solid fa-gears"},
+  {description : "Learn from a collaborative community of peers and mentors", icon : "fa-solid fa-people-group"}
+]
+
+
 
 const displayCourses = (s, e) => {
   let courses = '';
@@ -142,36 +150,9 @@ const displayCourses = (s, e) => {
   return courses;
 };
 
-// const displayCompanies = () => {
-//   let companies = '';
-//   for (let i = 0; i < companiesLogo.length; i += 1) {
-//     companies += `<div class="com card p-3 shadow-lg border-0">
-//         <div class="card-body">
-//             <img src="${companiesLogo[i].img}" alt="">
-//         </div>
-//     </div>`;
-
-//     companies += '\n';
-//   }
-
-//   return companies;
-// };
-
-const toggleBtn = document.getElementById('toggleBtn');
-const icon = toggleBtn.querySelector('i');
-
-toggleBtn.addEventListener('click', () => {
-  if (icon.classList.contains('fa-bars')) {
-    icon.classList.remove('fa-bars');
-    icon.classList.add('fa-times');
-  } else {
-    icon.classList.remove('fa-times');
-    icon.classList.add('fa-bars');
-  }
-});
 
 document.getElementById('coursesIntro').innerHTML = displayCourses(0, 6);
 document.getElementById('coursesInter').innerHTML = displayCourses(6, 12);
 document.getElementById('coursesAdva').innerHTML = displayCourses(12, 18);
 
-// document.getElementById('companiesCont').innerHTML = displayCompanies();
+

@@ -20,7 +20,7 @@
 }
 
 p {
-  font-size: 100%;
+  font-size: 1rem;
 }
 
 .row .card {
@@ -141,6 +141,10 @@ img {
 }
 
 @media screen and (min-width: 768px) {
+
+  p {
+    font-size: 1.4rem;
+  }
   .contact-form {
     max-width: 44rem !important;
   }
