@@ -1,4 +1,3 @@
-
 const toggleBtn = document.getElementById('toggleBtn');
 const icon = toggleBtn.querySelector('i');
 
