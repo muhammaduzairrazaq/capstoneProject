@@ -1,0 +1,179 @@
+.main-container {
+  background: url(assests/background3.png);
+  background-repeat: no-repeat;
+  height: 40pc;
+  background-position: center;
+  background-size: cover;
+}
+
+.nav-bar {
+  background-color: #272a31;
+}
+
+.button-black {
+  background-color: #272a31 !important;
+}
+
+.hamburgur {
+  font-size: 2rem;
+  color: #ec5242;
+}
+
+p {
+  font-size: 1rem;
+}
+
+.row .card {
+  width: 21rem;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+.main-text {
+  font-family: 'Lato', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  font-size: 2rem;
+  color: #272a31;
+  color: white;
+}
+
+.col-12 button {
+  background-color: #ec5242;
+  font-weight: bold;
+  color: white;
+}
+
+.col-12 button:hover {
+  background-color: #d84433;
+  font-weight: bold;
+  color: white;
+}
+
+.card-body a {
+  background-color: #ec5242;
+  font-weight: bold;
+  color: white;
+}
+
+.social-icons a {
+  margin: 0 10px;
+  font-size: 3rem;
+  color: #ec5242;
+}
+
+.card-body a:hover {
+  background-color: #d84433;
+  font-weight: bold;
+  color: white;
+}
+
+.line {
+  height: 0.3rem;
+  background-color: #272a31;
+  border-radius: 10px;
+  width: 7rem;
+}
+
+.noborder {
+  border: none;
+  background-color: white;
+  font-size: large;
+}
+
+.course-text {
+  font-size: 2rem;
+  color: #272a31;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  gap: 1rem;
+}
+
+.bg-lights {
+  margin-top: 4rem;
+  background-color: #272a31;
+}
+
+img {
+  border-radius: 3px;
+}
+
+.navbar-nav li:hover {
+  background-color: #ee63548c;
+  border-radius: 5px;
+}
+
+.submit-button {
+  width: 9rem;
+}
+
+.card-header {
+  background-color: white !important;
+}
+
+.container-width {
+  width: 23rem !important;
+}
+
+.card i {
+  font-size: 5pc;
+  color: #ec5242;
+}
+
+.social-icons a i {
+  font-size: 2rem;
+}
+
+@media screen and (max-width: 768px) {
+  .navbar-brand {
+    display: none;
+  }
+
+  .contact-form {
+    max-width: 22rem !important;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  p {
+    font-size: 1.4rem;
+  }
+
+  .contact-form {
+    max-width: 44rem !important;
+  }
+
+  .container-width {
+    width: 45rem !important;
+  }
+
+  .main-container {
+    height: 52pc;
+  }
+
+  .container-sm {
+    max-width: 30rem !important;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .hamburgur {
+    display: none !important;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .contact-form {
+    max-width: 67rem !important;
+  }
+
+  .container-width {
+    width: 65rem !important;
+  }
+}
